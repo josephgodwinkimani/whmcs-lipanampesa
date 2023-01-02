@@ -1,26 +1,57 @@
 {
-    "name": "whmcs/sample-gateway-module",
-    "description": "Sample Third Party Payment Gateway Module for the WHMCS Billing Automation Platform",
+    "name": "josephgodwinkimani/whmcs-lipanampesa",
+    "type": "library",
+    "description": "Accept WHMCS Payments using Lipa na M-PESA",
     "keywords": [
+        "safaricom",
         "whmcs",
         "web host automation platform",
-        "third party gateway module",
+        "lipa na mpesa",
         "gateway module",
         "third party gateway"
     ],
-    "homepage": "http://www.whmcs.com/",
+    "homepage": "https://github.com/josephgodwinkimani/whmcs-lipanampesa/",
     "license": "MIT",
     "authors": [
         {
-            "name": "WHMCS Development Team",
-            "email": "development@whmcs.com",
-            "homepage": "http://www.whmcs.com/",
+            "name": "Joseph Godwin Kimani",
+            "email": "josephgodwinke@gmail.com",
+            "homepage": "https://kimani.gocho.live/",
             "role": "Developer"
         }
     ],
     "support": {
-        "email": "support@whmcs.com",
-        "forum": "http://forums.whmcs.com/",
-        "wiki": "http://docs.whmcs.com/"
+        "email": "josephgodwinke@gmail.com",
+        "wiki": "https://github.com/josephgodwinkimani/whmcs-lipanampesa/wiki"
+    },
+    "require": {
+        "php": "^7.2 || ^8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.0",
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "vimeo/psalm": "^4.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "modules/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Example\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": [
+            "@php ./vendor/bin/phpunit"
+        ]
     }
 }

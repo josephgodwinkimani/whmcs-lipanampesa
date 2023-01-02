@@ -1,15 +1,15 @@
 {
     "schema": "1.0",
     "type": "whmcs-gateways",
-    "name": "sample-gateway-module",
+    "name": "whmcs-lipanampesa",
     "license": "MIT",
     "category": "gateway",
     "description": {
-        "name": "Sample Third Party Payment Gateway Module",
-        "tagline": "Payment Gateway modules allow you to integrate payment solutions with the WHMCS platform.",
-        "long": "The sample files here demonstrate how we suggest a Third Party Payment Gateway module for WHMCS be structured and implemented.",
+        "name": "Lipa na M-PESA",
+        "tagline": "Accept WHMCS Payments using Lipa na M-PESA.",
+        "long": "Accept WHMCS Payments using Lipa na M-PESA.",
         "features": [
-            "Provide both client and admin facing user interfaces",
+            "Accept WHMCS Payments using Lipa na M-PESA",
             "Utilize hook functionality within WHMCS"
         ]
     },
@@ -17,16 +17,16 @@
         "filename": "logo.png"
     },
     "support": {
-        "homepage": "https:\/\/www.whmcs.com\/", 
-        "learn_more": "https:\/\/www.whmcs.com\/tour", 
-        "email": "support@whmcs.com", 
-        "support_url": "https:\/\/support.whmcs.com\/",
-        "docs_url": "https:\/\/developers.whmcs.com\/payment-gateways\/"
+        "homepage": "https:\/\/www.kimani.gocho.live\/", 
+        "learn_more": "https:\/\/www.kimani.gocho.live\/projects.html", 
+        "email": "josephgodwinke@gmail.com", 
+        "support_url": "https:\/\/github.com\/josephgodwinkimani\/whmcs-lipanampesa\/issues\/",
+        "docs_url": "https:\/\/github.com\/josephgodwinkimani\/whmcs-lipanampesa\/wiki\/"
     },
     "authors": [
         {
-            "name": "WHMCS",
-            "homepage": "https:\/\/www.whmcs.com\/"
+            "name": "Joseph Godwin Kimani",
+            "homepage": "https:\/\/www.kimani.gocho.live\/"
         }
     ]
 }
